@@ -14,7 +14,7 @@ TO BE ADDED!
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 1. Run ```bash docker compose up --build ``` to build and run the nginx and node.js server.
-2. Access through your browser of choice (brave used in testins) through specified port, [0.0.0.0:5000](0.0.0.0:5000) by default
+2. Access through your browser of choice (brave used in testins) through specified port, [http://0.0.0.0:5000](http://0.0.0.0:5000) by default
 
 ## Built With
 
