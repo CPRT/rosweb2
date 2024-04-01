@@ -23,4 +23,4 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Authors
 
-* **Mateusz Tyc** - *Initial work* - [YourGithubUsername](https://github.com/noodlekid)
+* **Mateusz Tyc** - *Initial work* - [Noodle Kid](https://github.com/noodlekid)
