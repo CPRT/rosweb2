@@ -1,0 +1,15 @@
+{
+  "name": "rosweb2",
+  "version": "1.0.0",
+  "description": "web app for rover teleop and other useful feature",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mateusz Tyc",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
