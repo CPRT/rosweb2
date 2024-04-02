@@ -10,5 +10,21 @@
     <div id="rover-controls">
         <!-- Add your rover control buttons and UI elements here -->
     </div>
+
+    <div id="listener2-messages">
+        <!-- The messages from listener2 will be displayed here -->
+    </div>
+
+    <script>
+        var ws = new WebSocket('ws://localhost:5000');
+
+        ws.onmessage = function(event) {
+            var message = event.data;
+            // Display the message on your webpage
+            var messageElement = document.createElement('p');
+            messageElement.textContent = message;
+            document.getElementById('listener2-messages').appendChild(messageElement);
+        };
+    </script>
 </body>
 </html>
