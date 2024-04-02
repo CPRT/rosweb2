@@ -10,7 +10,9 @@
   "author": "Mateusz Tyc",
   "license": "ISC",
   "dependencies": {
+    "@types/roslib": "^1.3.4",
     "express": "^4.19.2",
+    "roslib": "^1.4.1",
     "socket.io": "^4.7.5",
     "ts-node": "^10.9.2"
   },
