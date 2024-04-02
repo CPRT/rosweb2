@@ -9,6 +9,7 @@ COPY package*.json ./
 
 # run npm install in our local machine
 RUN npm install
+RUN npm install -g ts-node
 
 # copy the generated modules and all other files to the container
 COPY . .
@@ -17,4 +18,4 @@ COPY . .
 EXPOSE 5000
 
 # the command that starts our app
-CMD ["node", "index.js"]
+CMD ["ts-node", "index.ts"]
