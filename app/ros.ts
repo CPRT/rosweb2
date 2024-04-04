@@ -1,5 +1,4 @@
 import ROSLIB from 'roslib';
-import os from  'os';
 import { webSocketClients } from './websocket';
 
 const ROSBRIDGE_SERVER_URL = `ws://${process.env.ROSBRIDGE_SERVER_IP}:9090`;

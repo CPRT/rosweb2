@@ -13,7 +13,7 @@ This project provides a web interface for interacting with a robot running ROS2.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-1. Run `docker compose up --build` to build and run the Nginx and Node.js server.
+1. Run `sudo ./start.sh` to build and run the Nginx and Node.js server.
 2. Access the web interface through your browser of choice at [http://0.0.0.0:5000](http://0.0.0.0:5000).
 
 ## Built With

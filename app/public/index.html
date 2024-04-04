@@ -16,11 +16,9 @@
     </div>
 
     <script>
-        var ws = new WebSocket('ws://192.168.0.55:5000');
-
+        var ws = new WebSocket('ws://' + location.hostname + ':5000');
         ws.onmessage = function(event) {
             var message = event.data;
-            // Display the message on your webpage
             var messageElement = document.createElement('p');
             messageElement.textContent = message;
             document.getElementById('listener2-messages').appendChild(messageElement);
